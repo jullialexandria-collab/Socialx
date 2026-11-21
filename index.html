@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#101828">
+  <title>SOCIALX - Social Network</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand">SOCIAL<span>X</span></div>
+
+  <div class="search">
+    <span>⌕</span>
+    <input type="search" placeholder="Cari di SOCIALX...">
+  </div>
+
+  <div class="top-actions">
+    <button title="Beranda">⌂</button>
+    <button title="Pesan">✉</button>
+    <button title="Notifikasi">♧</button>
+    <div class="avatar">J</div>
+  </div>
+</header>
+
+<div class="layout">
+
+  <aside class="sidebar">
+    <div class="profile-mini">
+      <div class="avatar big">J</div>
+      <div>
+        <strong>Pengguna SOCIALX</strong>
+        <small>Selamat datang!</small>
+      </div>
+    </div>
+
+    <nav>
+      <a class="active" href="#home">⌂ Beranda</a>
+      <a href="#friends">♧ Teman</a>
+      <a href="#messages">✉ Pesan</a>
+      <a href="#groups">▦ Grup</a>
+      <a href="#saved">♡ Tersimpan</a>
+      <a href="#settings">⚙ Pengaturan</a>
+    </nav>
+
+    <div class="sidebar-footer">
+      SOCIALX © 2026
+    </div>
+  </aside>
+
+  <main class="feed" id="home">
+
+    <section class="welcome">
+      <h1>Selamat datang di SOCIALX!</h1>
+      <p>Terhubung, berbagi cerita, dan temukan teman baru.</p>
+    </section>
+
+    <section class="composer">
+      <div class="composer-top">
+        <div class="avatar">J</div>
+        <textarea id="postInput"
+          placeholder="Apa yang sedang kamu pikirkan?"></textarea>
+      </div>
+      <div class="composer-bottom">
+        <span>🌄 Bagikan cerita kamu</span>
+        <button id="postButton">Posting</button>
+      </div>
+    </section>
+
+    <section class="stories">
+      <h3>Cerita teman</h3>
+      <div class="story-list">
+        <div class="story add-story">
+          <div>+</div>
+          <span>Buat cerita</span>
+        </div>
+        <div class="story story-one">
+          <div class="story-avatar">A</div>
+          <span>Andi</span>
+        </div>
+        <div class="story story-two">
+          <div class="story-avatar">S</div>
+          <span>Sinta</span>
+        </div>
+        <div class="story story-three">
+          <div class="story-avatar">R</div>
+          <span>Rizky</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="posts">
+      <article class="post">
+        <div class="post-header">
+          <div class="avatar">S</div>
+          <div>
+            <strong>SOCIALX Community</strong>
+            <small>Baru saja · Publik</small>
+          </div>
+        </div>
+        <p>
+          Halo semuanya! 👋 Selamat datang di SOCIALX.
+          Mari membangun komunitas yang seru dan positif!
+        </p>
+        <div class="post-stats">
+          <span class="like-count">❤️ 12 suka</span>
+          <span>3 komentar</span>
+        </div>
+        <div class="post-actions">
+          <button class="like-button">♡ Suka</button>
+          <button>♧ Komentar</button>
+          <button>↗ Bagikan</button>
+        </div>
+      </article>
+    </section>
+
+  </main>
+
+  <aside class="rightbar">
+    <h3>Kontak</h3>
+    <div class="contact"><i></i> Andi Pratama</div>
+    <div class="contact"><i></i> Sinta Amelia</div>
+    <div class="contact"><i></i> Rizky Gaming</div>
+    <div class="contact"><i></i> Budi Santoso</div>
+  </aside>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
